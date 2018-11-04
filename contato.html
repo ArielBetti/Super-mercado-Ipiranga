@@ -22,7 +22,7 @@
 
                   <div class="container">
 
-                        <a class="navbar-brand" href="#">
+                        <a class="navbar-brand" href="index.html">
                               <img class="mr-3" src="images/ipiranga.png" width="125" height="56" alt="Logo Ipiranga">
                         </a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
@@ -32,7 +32,7 @@
                         <div class="collapse navbar-collapse" id="navbarNavDropdown">
                               <ul class="navbar-nav mr-auto mr-3">
                                     <li class="nav-item">
-                                          <a class="nav-link stylelink" href="#">Inicio<span class="sr-only">(current)</span></a>
+                                          <a class="nav-link stylelink" href="index.html">Inicio<span class="sr-only">(current)</span></a>
                                     </li>
                                     <li class="nav-item">
                                           <a class="nav-link stylelink" href="#album">Produtos</a>
@@ -41,7 +41,7 @@
                                           <a class="nav-link stylelink" href="#sobre">Sobre</a>
                                     </li>
                                     <li class="nav-item">
-                                          <a class="nav-link stylelink" href="#contato">Contato</a>
+                                          <a class="nav-link stylelink" href="contato.html">Contato</a>
                                     </li>
                               </ul>
 
@@ -99,7 +99,37 @@
                           <li><a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
                           <div style="clear: both;"></div>
                           </ul>
-                      </div>
+                      </div> 
+                      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-primary btnl mt-2 ml-3 " data-toggle="modal" data-target="#exampleModal">
+            <img class="location" src="images/placeholder.svg" alt="">
+            <p class="textone">Lojas</p>
+          </button>
+          
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Onde Estamos</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                        <p>Loja 1</p>
+                        <iframe class="iframeajuste" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3714.6803652713897!2d-48.48634268552607!3d-21.402486685797143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b9394e72493fa7%3A0x3ea25742bf2ecb79!2sSupermercados+Ipiranga+Loja+1!5e0!3m2!1spt-BR!2sbr!4v1541342935214" allowfullscreen></iframe>
+                        <br>
+                        <p>Loja 2</p>
+                        <iframe class="iframeajuste" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3714.4571530385924!2d-48.511605685525815!3d-21.411268985792407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b939700936e073%3A0x4e4698960a86eb92!2sSupermercado+Ipiranga+Loja+2!5e0!3m2!1spt-BR!2sbr!4v1541348981637" allowfullscreen></iframe>
+                </div>
+                <div class="modal-footer">
+                      
+                  <button type="button" class="btn btn-sm btn-outline-dark" data-dismiss="modal">Fechar</button>
+                </div>
+              </div>
+            </div>
+          </div>
                   </div>
               </form>
   </div>
