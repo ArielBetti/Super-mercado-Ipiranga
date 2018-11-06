@@ -14,8 +14,8 @@ body{
     transition: 200ms; 
 }
 
-.ativado a{
-    color: #e53321 ;
+.ativado{
+    color : #e53321 !important ;
 }
 
 .midiasf1 a img{
@@ -41,6 +41,10 @@ body{
     border-bottom-width: 1px;
     font-size: 35px;
     margin-bottom: 5px;
+}
+
+.redesSociais{
+    width: 130vh;
 }
 
 .form{
@@ -91,6 +95,39 @@ body{
     width: 468px;
 }
 
+.btnCard:hover a{
+    color: white;
+}
+
+.btnValor{
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.btnValor:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.btnV{
+    font-size: 15px;
+    text-decoration: none;
+    color: #e53321;
+}
+.btnV:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.card span{
+    font-size: 22px;
+}
+
+.center{
+    text-align: center;
+}
+
 @media (max-width: 505px){
     .iframeajuste{
         width: 300px;
@@ -107,12 +144,19 @@ body{
 }
 /*Footer*/
 .footer-bs {
+    text-align: center;
     background-color:#f4f5f7;
 	padding: 60px 40px;
     color: #37318a;
     font-size: 25px;
 	border-top-left-radius: 0px;
 }
+
+.logoFooter{
+    width: 160px;
+    height: 70px;
+}
+
 /*Social Buttons*/
 
 .urso{
@@ -258,31 +302,21 @@ body{
     .contact-form .form-control{
         border-radius:1rem;
     }
-    .contact-image{
-        text-align: center;
-    }
-    .contact-image img{
-        border-radius: 6rem;
-        width: 11%;
-        margin-top: -2%;
-        transform: rotate(0deg);
-    }
+    
     .contact-form form{
         padding: 14%;
     }
     .contact-form form .row{
         margin-bottom: -7%;
     }
-    .contact-form h3{
+    .contact-form h2{
         margin-bottom: 8%;
         margin-top: -10%;
         text-align: center;
-        color: white;
     }
     .contact-form .btnContact {
         width: 50%;
         border: none;
-        border-radius: 1rem;
         padding: 1.5%;
         background: #dc3545;
         font-weight: 600;
@@ -292,7 +326,7 @@ body{
     .btnContactSubmit
     {
         width: 50%;
-        border-radius: 1rem;
+        border-radius: 5%;
         padding: 1.5%;
         color: #fff;
         background-color: #0062cc;
@@ -300,12 +334,12 @@ body{
         cursor: pointer;
     }
     .contatocontainer{
-        background: -webkit-linear-gradient(left, #0072ff, #00c6ff);
         height: 100%;
         width: 100%;
         margin-top: 0;
         margin-bottom: 0;
     }
+    
     
     @media (max-width: 992px) {
         .gato h1 {font-size: 30px;}
