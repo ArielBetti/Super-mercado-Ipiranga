@@ -43,10 +43,6 @@ body{
     margin-bottom: 5px;
 }
 
-.redesSociais{
-    width: 130vh;
-}
-
 .form{
     text-align: center
 }
@@ -74,12 +70,6 @@ body{
 /*Local*/
 .location{
     height: 30px;
-}
-
-.btnl{
-    height: 60px;
-    width: 210px;
-    background-color: #37318a !important;
 }
 
 .textone{
@@ -138,8 +128,9 @@ body{
         width: 300px;
     }
     .btnl{
-        height: 60px;
-        width: 200px;
+        height: 10px
+        
+        border-radius: 58%;
     }
 }
 @media (max-width: 380px){
@@ -162,141 +153,13 @@ body{
     height: 70px;
 }
 
-/*Social Buttons*/
-
-.urso{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin: 0;
-    padding: 0;
-    display: flex;
-    
-    }
-    .urso li{
-    list-style: none;
-    margin: 0 40px;
-    
-    }
-    .urso li .fa{
-    font-size: 40px;
-    color: #262626;
-    line-height: 80px;
-    transition: .5s;
-    
-    }
-    .urso li a{
-    position: relative;
-    display: block;
-    width: 80px;
-    height: 80px;
-    background-color: #fff;
-    text-align: center;
-    transform: perspective(100px) rotate(-30deg) skew(25deg) translate(0,0);
-    transition: .5s;
-    box-shadow: -20px 20px 10px #abacad;
-    }
-    .urso li a::before{
-    content: "";
-    position: absolute;
-    top: 10px;
-    left: -20px;
-    height: 100%;
-    width: 20px;
-    background: #b1b1b1;
-    transition: .5s;
-    transform: rotate(0deg) skewY(-45deg);
-    }
-    .urso li a::after{
-    content: "";
-    position: absolute;
-    top: 80px;
-    left: -11px;
-    height: 20px;
-    width: 100%;
-    background: #b1b1b1;
-    transition: .5s;
-    transform: rotate(0deg) skewX(-45deg);
-    }
-    .urso li a:hover{
-    transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(20px, -20px);
-    box-shadow: -50px 50px 50px #abacad;
-    }
-    .urso li:hover .fa{
-    color: #fff;
-    }
-    .urso li a:hover{
-    transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(20px, -20px);
-    box-shadow: -50px 50px 50px #abacad;
-    }
-    .urso li:hover:nth-child(1) a{
-    background: #3b5999;
-    }
-    
-    .urso li:hover:nth-child(1) a:before{
-    background: #2e4a86;
-    }
-    .urso li:hover:nth-child(1) a:after{
-    background: #4a69ad;
-    }
-    
-    .urso li:hover:nth-child(2) a{
-    background: linear-gradient(#400080, transparent), linear-gradient(200deg, #d047d1, #ff0000, #ffff00);
-    }
-    
-    .urso li:hover:nth-child(2) a:before{
-    background: linear-gradient(#400080, transparent), linear-gradient(200deg, #d047d1, #ff0000, #ffff00);
-    }
-    .urso li:hover:nth-child(2) a:after{
-    background: linear-gradient(#400080, transparent), linear-gradient(200deg, #d047d1, #ff0000, #ffff00);
-    }
-
-    /* Social Buttons SmartPhones */
-
-    .gato {
-        width: 80%;
-        box-sizing: border-box;
-        text-align: center;
-    }
-    .gato h1 {
-        font-size: 48px;
-        text-transform: uppercase;
-    }
-    .gato ul {
-        margin: 0;
-        padding: 0;
-    }
-    .gato ul li {
-        list-style: none;
-        float: left;
-        width: calc(100% / 8);
-        box-sizing: border-box;
-    }
-    .gato ul li a {
-        display: block;
-        padding: 20px;
-        text-decoration: none;
-        color: #fff;
-    }
-    .gato ul li a .fa {
-        font-size: 40px;
-        transition: .5s;
-    }
-    .gato ul li a:hover .fa {
-        transform: rotateY(360deg);
-    }
-    .gato ul li:nth-child(1) a {
-        background: #3b5999;
-    }
-    .gato ul li:nth-child(2) a {
-        background: #c13929;
-    }
-    .gato ul li:nth-child(3) a{
-        background: #34d36c;
-    }
 
     /* Form Contato */
+
+    .btnContacto{
+        border-radius: 5%;
+        width: 40%;
+    }
 
     .contact-form{
         background: #fff;
@@ -311,33 +174,17 @@ body{
     .contact-form form{
         padding: 14%;
     }
+
     .contact-form form .row{
         margin-bottom: -7%;
     }
+
     .contact-form h2{
         margin-bottom: 8%;
         margin-top: -10%;
         text-align: center;
     }
-    .contact-form .btnContact {
-        width: 50%;
-        border: none;
-        padding: 1.5%;
-        background: #dc3545;
-        font-weight: 600;
-        color: #fff;
-        cursor: pointer;
-    }
-    .btnContactSubmit
-    {
-        width: 50%;
-        border-radius: 5%;
-        padding: 1.5%;
-        color: #fff;
-        background-color: #0062cc;
-        border: none;
-        cursor: pointer;
-    }
+
     .contatocontainer{
         height: 100%;
         width: 100%;
@@ -346,23 +193,6 @@ body{
     }
     
     
-    @media (max-width: 992px) {
-        .gato h1 {font-size: 30px;}
-        .gato ul li {width: calc(100% / 4);}
-    }
-    
-    @media (max-width: 768px) {
-        .gato {width: 100%;}
-    }
-    
-    @media (max-width: 480px) {
-        .gato {margin: 20px auto;}
-        .gato ul li {width: calc(100% / 2);}
-    }
-    @media (max-width: 480px) {
-        .gato {margin: 0 auto;}
-        .gato ul li {width: calc(100% / 1);}
-    }
 
 
 .footer-bs .footer-brand, .footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { padding:10px 25px; }
@@ -410,3 +240,91 @@ body{
 @media (min-width: 768px) {
 	.footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-left:solid 1px rgba(255,255,255,0.10); }
 }
+
+/*Novos icons*/
+
+.wp{
+    list-style: none;   
+    font-size: 40px;
+    padding: 20px 20px;
+    color: #04f731;
+    transition: .5s;
+    border-radius: 5%;   
+}
+
+.ig{
+    list-style: none;   
+    font-size: 40px;
+    padding: 20px 20px;
+    color: #f70264;
+    transition: .5s;
+    border-radius: 5%;    
+}
+
+.fb{
+    list-style: none;   
+    font-size: 40px;
+    padding: 20px 20px;
+    color: #0f7dfc;
+    transition: .5s;
+    border-radius: 5%;    
+}
+
+.fb:hover{
+    color: white;
+    border: 1px solid white;
+    box-shadow: 0px 1px 6px #0f7dfc;
+    background-color: #0f7dfc;
+    transition: 0.70s;
+}
+
+.ig:hover{
+    color: white;
+    border: 1px solid white;
+    box-shadow: 0px 1px 6px #e51a0b;
+    background-color: #f70264;
+    transition: 0.70s;
+    background: linear-gradient(20deg,#e51a0b,#eff702,#f702f3); /*Change colors as you want*/
+    background-size: 1000% 1000% !important;
+}
+
+.wp:hover{
+    color: white;
+    border: 1px solid white;
+    box-shadow: 0px 1px 6px #02f938;
+    background-color: #15f709;
+    transition: 0.70s;
+    background: linear-gradient(20deg,#15f709,#04f731,#04f78e); /*Change colors as you want*/
+    background-size: 1000% 1000% !important;
+}
+
+.cfb{
+    list-style: none;   
+    font-size: 30px;
+    padding: 10px 10px;
+    color: #0f7dfc;
+    transition: .5s;
+    border-radius: 5%;
+    height: 60px;
+}
+
+.cig{
+    list-style: none;   
+    font-size: 30px;
+    padding: 10px 10px;
+    color: #f70264;
+    transition: .5s;
+    border-radius: 5%;
+    height: 60px;
+}
+
+.cwp{
+    list-style: none;   
+    font-size: 30px;
+    padding: 10px 10px;
+    color: #04f731;
+    transition: .5s;
+    border-radius: 5%;
+    height: 60px;
+}
+

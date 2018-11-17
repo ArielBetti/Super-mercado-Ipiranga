@@ -6,12 +6,11 @@
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
    <link rel="stylesheet" href="css/style.css">
+   <!-- Social Midia CSS !-->
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
    <!-- Bootstrap CSS -->
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
       crossorigin="anonymous">
-   <!-- Social icons CSS -->
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
    <title>Super Mercado Ipiranga</title>
 </head>
@@ -38,7 +37,7 @@
                      <a class="nav-link stylelink" href="sobre.html">Sobre</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link stylelink" href="produtos.html">Promoções</a>
+                     <a class="nav-link stylelink" href="produtos.html">Produtos</a>
                   </li>
                   <li class="nav-item">
                      <a class="nav-link stylelink ativado" href="contato.html">Contato
@@ -53,54 +52,42 @@
    </header>
 
    <main>
-
+ 
       <div class="container contact-form contatocontainer">
          <form method="post" class="center">
-            <h2 class="text-dark">Fale conosco</h2>
+            <h2 class="bg-danger rounded text-white">Fale conosco</h2>
             <div class="row">
                <div class="col-md-6">
                   <div class="form-group">
-                     <input type="text" name="txtName" class="form-control" placeholder="Seu nome" value="" />
+                     <input type="text" name="txtName" class="form-control border border-danger" placeholder="Seu nome" value="" />
                   </div>
                   <div class="form-group">
-                     <input type="text" name="txtEmail" class="form-control" placeholder="Seu e-mail" value="" />
+                     <input type="text" name="txtEmail" class="form-control border border-danger" placeholder="Seu e-mail" value="" />
                   </div>
                   <div class="form-group">
-                     <input type="text" name="txtName" class="form-control" placeholder="Assunto" value="" />
+                     <input type="text" name="txtName" class="form-control border border-danger" placeholder="Assunto" value="" />
                   </div>
                   <div class="form-group">
-                     <input type="text" name="txtPhone" class="form-control" placeholder="Telefone ou Celular" value="" />
+                     <input type="text" name="txtPhone" class="form-control border border-danger" placeholder="Telefone ou Celular" value="" />
                   </div>
-                  <div class="form-group mt-4">
-                     <input type="submit" name="btnSubmit" class="btnContact" value="Enviar" />
+                   <div class="form-group mt-4 d-flex align-content-center justify-content-center">
+                     <input type="submit" name="btnSubmit" class="btnContacto btn btn-danger d-none d-md-block" value="Enviar" />
                   </div>
                </div>
                <div class="col-md-6">
                   <div class="form-group">
-                     <textarea name="txtMsg" class="form-control" placeholder="Sua Mensagem" style="width: 100%; height: 201px;"></textarea>
+                     <textarea name="txtMsg" class="form-control border border-danger" placeholder="Sua Mensagem" style="width: 100%; height: 201px;"></textarea>
                   </div>
-
-               </div>
-               <div class="redesSociais">
-                  <div class="gato">
-                     <ul>
-                        <li>
-                           <a href="#">
-                              <i class="fa fa-facebook-official" aria-hidden="true"></i>
-                           </a>
-                        </li>
-                        <li>
-                           <a href="#">
-                              <i class="fa fa-instagram" aria-hidden="true"></i>
-                           </a>
-                        </li>
-                        <li>
-                           <a href="#">
-                              <i class="fa fa-whatsapp" aria-hidden="true"></i>
-                           </a>
-                        </li>
-                     </ul>
+                  <div class="form-group mt-4 d-flex align-content-center justify-content-center">
+                     <input type="submit" name="btnSubmit" class="btnContacto btn btn-danger d-md-none" value="Enviar" />
                   </div>
+            <div>
+               <ul class="row d-flex justify-content-center mr-4">
+                  <a href="fb.com"><li class="cfb fb"><i class="fab fa-facebook"></i></li></a>
+                  <li class="cig ig"><i class="fab fa-instagram"></i></li>
+                  <li class="cwp wp"><i class="fab fa-whatsapp"></i></li>
+               </ul>
+            </div>
                </div>
             </div>
          </form>
@@ -108,20 +95,20 @@
 
    </main>
 
-   <footer class="footer-bs">
+   <footer class="footer-bs bg-light">
       <div class="row">
          <div class="col-md-3 footer-brand animated fadeInLeft">
-            <img class="mr-3" src="images/ipiranga.png" width="125" height="56" alt="Logo Ipiranga">
+            <img class="ml-2 mt-md-1" src="images/ipiranga.png" width="125" height="56" alt="Logo Ipiranga">
             <p></p>
             <p>© 2018 Super Mercado Ipiranga, Todos os direitos reservados</p>
          </div>
          <div class="col-md-4 footer-nav animated fadeInUp ml-4">
-            <h2>Onde Estamos</h2>
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary btnl mt-2 " data-toggle="modal" data-target="#exampleModal">
+            <p class="mr-3">Onde Estamos</p>
+            <button type="button" class="btn btn-primary mr-3 mb-3" data-toggle="modal" data-target="#exampleModal">
                <img class="location" src="images/placeholder.svg" alt="">
                <br>
-               Lojas
+               Ver Lojas
             </button>
 
             <!-- Modal -->
@@ -146,41 +133,19 @@
                      </div>
                      <div class="modal-footer">
 
-                        <button type="button" class="btn btn-sm btn-outline-dark" data-dismiss="modal">Fechar</button>
+                        <button type="button" class="btn btn-sm btn-outline-danger" data-dismiss="modal">Fechar</button>
                      </div>
                   </div>
                </div>
             </div>
 
          </div>
-         <div class="col-md-4 footer-nav animated fadeInUp d-none d-lg-block ">
-            <ul class="urso">
-               <li>
-                  <a href="">
-                     <i class="fa fa-facebook" aria-hidden="true"></i>
-                  </a>
-               </li>
-               <li>
-                  <a href="#">
-                     <i class="fa fa-instagram" aria-hidden="true"></i>
-                  </a>
-               </li>
-            </ul>
-         </div>
-         <div class="gato mt-4 ml-2 d-lg-none d-md-block">
-            <ul>
-               <li>
-                  <a href="#">
-                     <i class="fa fa-facebook-official" aria-hidden="true"></i>
-                  </a>
-               </li>
-               <li>
-                  <a href="#">
-                     <i class="fa fa-instagram" aria-hidden="true"></i>
-                  </a>
-               </li>
-            </ul>
-
+         <div>
+         <ul class="row d-flex justify-content-center mt-md-4 pt-md-3">
+            <a href="https://www.facebook.com/sup.ipiranga.7"><li class="fb"><i class="fab fa-facebook"></i></li></a>
+            <a href="https://www.instagram.com/superipiranga/"><li class="ig"><i class="fab fa-instagram"></i></li></a>
+            <a href="https://web.whatsapp.com/"><li class="wp"><i class="fab fa-whatsapp"></i></li></a>
+         </ul>
          </div>
       </div>
    </footer>
