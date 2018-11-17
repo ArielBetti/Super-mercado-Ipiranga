@@ -16,7 +16,7 @@
 
 <body>
    <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-ipiranga">
 
          <div class="container">
 
@@ -54,33 +54,33 @@
  
       <div class="container contact-form contatocontainer">
          <form method="post" class="center">
-            <h2 class="bg-danger rounded text-white">Fale conosco</h2>
+            <h2 class="bg-ipiranga rounded text-white">Fale conosco</h2>
             <div class="row">
                <div class="col-md-6">
                   <div class="form-group">
-                     <input type="text" name="txtName" class="form-control border border-danger" placeholder="Seu nome" value="" />
+                     <input type="text" name="txtName" class="form-control bcontato" placeholder="Seu nome" value="" />
                   </div>
                   <div class="form-group">
-                     <input type="text" name="txtEmail" class="form-control border border-danger" placeholder="Seu e-mail" value="" />
+                     <input type="text" name="txtEmail" class="form-control bcontato" placeholder="Seu e-mail" value="" />
                   </div>
                   <div class="form-group">
-                     <input type="text" name="txtName" class="form-control border border-danger" placeholder="Assunto" value="" />
+                     <input type="text" name="txtName" class="form-control bcontato" placeholder="Assunto" value="" />
                   </div>
                   <div class="form-group">
-                     <input type="text" name="txtPhone" class="form-control border border-danger" placeholder="Telefone ou Celular" value="" />
+                     <input type="text" name="txtPhone" class="form-control bcontato" placeholder="Telefone ou Celular" value="" />
                   </div>
                    <div class="form-group mt-4 d-flex align-content-center justify-content-center">
-                     <input type="submit" name="btnSubmit" class="btnContacto btn btn-danger d-none d-md-block" value="Enviar" />
+                     <input type="submit" name="btnSubmit" class="btnContacto btn bg-ipiranga d-none d-md-block" value="Enviar" />
                   </div>
                </div>
                <div class="col-md-6">
                   <div class="form-group">
-                     <textarea name="txtMsg" class="form-control border border-danger" placeholder="Sua Mensagem" style="width: 100%; height: 201px;"></textarea>
+                     <textarea name="txtMsg" class="form-control bcontato" placeholder="Sua Mensagem" style="width: 100%; height: 201px;"></textarea>
                   </div>
                   <div class="form-group mt-4 d-flex align-content-center justify-content-center">
-                     <input type="submit" name="btnSubmit" class="btnContacto btn btn-danger d-md-none" value="Enviar" />
+                     <input type="submit" name="btnSubmit" class="btnContacto btn bg-ipiranga d-md-none" value="Enviar" />
                   </div>
-            <div class="row d-flex justify-content-center mr-4">
+            <div class="col">
                   <a href="https://www.facebook.com/sup.ipiranga.7"><i class="cfb fb fab fa-facebook"></i></a>
                   <a href="https://www.instagram.com/superipiranga/"><i class="cig ig fab fa-instagram"></i></a>
                   <a href="https://web.whatsapp.com/"><i class="cwp wp fab fa-whatsapp"></i></a>
@@ -92,20 +92,20 @@
 
    </main>
 
-   <footer class="footer-bs bg-light">
+   <footer class="footer-bs bg-ipirangaf">
       <div class="row">
          <div class="col-md-3 footer-brand animated fadeInLeft">
             <img class="ml-2 mt-md-1" src="images/ipiranga.png" width="125" height="56" alt="Logo Ipiranga">
             <p></p>
-            <p>© 2018 Super Mercado Ipiranga, Todos os direitos reservados</p>
+            <p class="text-white">© 2018 Super Mercado Ipiranga, Todos os direitos reservados</p>
          </div>
          <div class="col-md-4 footer-nav animated fadeInUp ml-4">
             <!-- Button trigger modal -->
-            <p class="mr-3">Onde Estamos</p>
-            <button type="button" class="btn btn-primary mr-3 mb-3" data-toggle="modal" data-target="#exampleModal">
+            <p class="mr-3 text-white">Onde Estamos</p>
+            <button type="button" class="btn btn-modal mr-3 mb-3" data-toggle="modal" data-target="#exampleModal">
                <img class="location" src="images/placeholder.svg" alt="">
                <br>
-               Ver Lojas
+               <p class="text-white mt-2">Ver Lojas</p>
             </button>
 
             <!-- Modal -->
@@ -130,18 +130,19 @@
                      </div>
                      <div class="modal-footer">
 
-                        <button type="button" class="btn btn-sm btn-outline-danger" data-dismiss="modal">Fechar</button>
+                        <button type="button" class="btn btn-sm btn-outline-dark" data-dismiss="modal">Fechar</button>
                      </div>
                   </div>
                </div>
             </div>
-
          </div>
-         <div class="row d-flex justify-content-center mt-md-4 pt-md-4 ml-4">
-            <a href="https://www.facebook.com/sup.ipiranga.7"><i class="fb fab fa-facebook"></i></a>
-            <a href="https://www.instagram.com/superipiranga/"><i class="ig fab fa-instagram"></i></a>
-            <a href="https://web.whatsapp.com/"><i class="wp fab fa-whatsapp"></i></a>
+                  <div class="col footer-nav">
+                  <p class="text-center text-white mt-1">Redes Sociais</p>
+                  <a href="https://www.facebook.com/sup.ipiranga.7"><i class="fb fab fa-facebook"></i></a>
+                  <a href="https://www.instagram.com/superipiranga/"><i class="ig fab fa-instagram"></i></a>
+                  <a href="https://web.whatsapp.com/"><i class="wp fab fa-whatsapp"></i></a>
          </div>
+      </div>
       </div>
    </footer>
    <!-- Optional JavaScript -->

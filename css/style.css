@@ -3,19 +3,24 @@ body{
     
 }
 
+.bg-ipiranga{
+    background-color: #2d2077 !important;
+    color: white;
+}
+
 .stylelink{
-    color: #37318a !important ;
+    color: #ffffff !important ;
     margin-bottom: 0;
     font-size: 25px;
 }
 
 .stylelink:hover{
-    color: #e53321 !important ;
+    color: #e51a0b !important ;
     transition: 200ms; 
 }
 
 .ativado{
-    color : #e53321 !important ;
+    color : #fc020a !important ;
 }
 
 .midiasf1 a img{
@@ -68,6 +73,13 @@ body{
     height: 200px;
 }
 /*Local*/
+
+.btn-modal{
+    width: 50%;
+    background-color: #2d2077;
+    
+}
+
 .location{
     height: 30px;
 }
@@ -75,10 +87,6 @@ body{
 .textone{
     font-size: 13px;
     color: white;
-}
-
-.btnmodal{
-    background-color: #e53321 !important;
 }
 
 .iframeajuste{
@@ -139,6 +147,11 @@ body{
     }
 }
 /*Footer*/
+
+.bg-ipirangaf{
+    background-color: #0f0f0f !important;
+}
+
 .footer-bs {
     text-align: center;
     background-color:#f4f5f7;
@@ -155,6 +168,11 @@ body{
 
 
     /* Form Contato */
+
+    .bcontato{
+        border-style: solid !important;
+        border-color: #2d2077 !important;
+    }
 
     .btnContacto{
         border-radius: 5%;
