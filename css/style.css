@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
 body{
     font-family: 'Ubuntu', sans-serif;
-    
 }
 
 .bg-ipiranga{
@@ -76,8 +77,19 @@ body{
 
 .btn-modal{
     width: 50%;
-    background-color: #2d2077;
-    
+    background-color: #0f0f0f;
+    color: white;
+    border: 1px solid white !important;   
+}
+
+.btn-modal:hover{
+    color: white;
+    border: 1px solid white;
+    box-shadow: 0px 1px 6px #e51a0b;
+    background-color: #f70264;
+    transition: 0.70s;
+    background: linear-gradient(20deg,#ff0000,#fcfc00,#ff0043); /*Change colors as you want*/
+    background-size: 1000% 1000% !important;
 }
 
 .location{
@@ -264,7 +276,7 @@ body{
 .wp{
     list-style: none;   
     font-size: 40px;
-    padding: 20px 20px;
+    padding: 15px 15px;
     color: #04f731;
     transition: .5s;
     border-radius: 5%;   
@@ -273,7 +285,7 @@ body{
 .ig{
     list-style: none;   
     font-size: 40px;
-    padding: 20px 20px;
+    padding: 15px 15px;
     color: #f70264;
     transition: .5s;
     border-radius: 5%;    
@@ -282,7 +294,7 @@ body{
 .fb{
     list-style: none;   
     font-size: 40px;
-    padding: 20px 20px;
+    padding: 15px 15px;
     color: #0f7dfc;
     transition: .5s;
     border-radius: 5%;    
@@ -318,31 +330,44 @@ body{
 
 .cfb{
     list-style: none;   
-    font-size: 30px;
+    font-size: 35px;
     padding: 10px 10px;
-    color: #0f7dfc;
     transition: .5s;
     border-radius: 5%;
     height: 60px;
+    color: white;
+    border: 1px solid white;
+    background-color: #0f7dfc;
+    transition: 0.70s;
 }
 
 .cig{
     list-style: none;   
-    font-size: 30px;
+    font-size: 35px;
     padding: 10px 10px;
-    color: #f70264;
     transition: .5s;
     border-radius: 5%;
     height: 60px;
+    color: white;
+    border: 1px solid white;
+    background-color: #f70264;
+    transition: 0.70s;
+    background: linear-gradient(20deg,#e51a0b,#eff702,#f702f3); /*Change colors as you want*/
+    background-size: 1000% 1000% !important;
 }
 
 .cwp{
     list-style: none;   
-    font-size: 30px;
+    font-size: 35px;
     padding: 10px 10px;
-    color: #04f731;
     transition: .5s;
     border-radius: 5%;
     height: 60px;
+    color: white;
+    border: 1px solid white;
+    background-color: #15f709;
+    transition: 0.70s;
+    background: linear-gradient(20deg,#15f709,#04f731,#04f78e); /*Change colors as you want*/
+    background-size: 1000% 1000% !important;
 }
 

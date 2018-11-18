@@ -56,15 +56,28 @@
          <form method="post" class="center">
             <h2 class="bg-ipiranga rounded text-white">Fale conosco</h2>
             <div class="row">
+
                <div class="col-md-6">
+                  
                   <div class="form-group">
+                     <select class="custom-select mb-3 bcontato">
+                  <option selected>Selecione uma Loja</option>
+                  <option value="1">Loja 1</option>
+                  <option value="2">Loja 2</option>
+                  </select>
+                     <select class="custom-select mb-3 bcontato">
+                  <option selected>Assunto</option>
+                  <option value="1">Vaga de emprego</option>
+                  <option value="2">Reclamação</option>
+                  <option value="3">Elogio</option>
+                  <option value="4">Comentário</option>
+                  <option value="5">Sujestão</option>
+                  <option value="6">Outro</option>
+                  </select>
                      <input type="text" name="txtName" class="form-control bcontato" placeholder="Seu nome" value="" />
                   </div>
                   <div class="form-group">
                      <input type="text" name="txtEmail" class="form-control bcontato" placeholder="Seu e-mail" value="" />
-                  </div>
-                  <div class="form-group">
-                     <input type="text" name="txtName" class="form-control bcontato" placeholder="Assunto" value="" />
                   </div>
                   <div class="form-group">
                      <input type="text" name="txtPhone" class="form-control bcontato" placeholder="Telefone ou Celular" value="" />
@@ -75,12 +88,13 @@
                </div>
                <div class="col-md-6">
                   <div class="form-group">
-                     <textarea name="txtMsg" class="form-control bcontato" placeholder="Sua Mensagem" style="width: 100%; height: 201px;"></textarea>
+                     <textarea name="txtMsg" class="form-control bcontato" placeholder="Sua Mensagem" style="width: 100%; height: 100px;"></textarea>
                   </div>
                   <div class="form-group mt-4 d-flex align-content-center justify-content-center">
                      <input type="submit" name="btnSubmit" class="btnContacto btn bg-ipiranga d-md-none" value="Enviar" />
                   </div>
-            <div class="col">
+            <div class="col pb-3 badge bg-ipiranga">
+                  <p class="text-center mt-2">Redes Sociais</p>
                   <a href="https://www.facebook.com/sup.ipiranga.7"><i class="cfb fb fab fa-facebook"></i></a>
                   <a href="https://www.instagram.com/superipiranga/"><i class="cig ig fab fa-instagram"></i></a>
                   <a href="https://web.whatsapp.com/"><i class="cwp wp fab fa-whatsapp"></i></a>
@@ -103,7 +117,7 @@
             <!-- Button trigger modal -->
             <p class="mr-3 text-white">Onde Estamos</p>
             <button type="button" class="btn btn-modal mr-3 mb-3" data-toggle="modal" data-target="#exampleModal">
-               <img class="location" src="images/placeholder.svg" alt="">
+               <img class="location mt-2" src="images/placeholder.svg" alt="">
                <br>
                <p class="text-white mt-2">Ver Lojas</p>
             </button>
