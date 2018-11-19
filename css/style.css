@@ -5,7 +5,7 @@ body{
 }
 
 .bg-ipiranga{
-    background-color: #2d2077 !important;
+    background-color: #37318a !important;
     color: white;
 }
 
@@ -16,12 +16,12 @@ body{
 }
 
 .stylelink:hover{
-    color: #e51a0b !important ;
+    color: #e53421 !important ;
     transition: 200ms; 
 }
 
 .ativado{
-    color : #fc020a !important ;
+    color : #e53421 !important ;
 }
 
 .midiasf1 a img{
