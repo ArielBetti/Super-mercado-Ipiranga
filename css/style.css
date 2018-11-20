@@ -93,6 +93,10 @@ body{
 
 }
 
+.marginBottom{
+    margin-bottom: 32px;
+}
+
 .location{
     height: 30px;
 }
