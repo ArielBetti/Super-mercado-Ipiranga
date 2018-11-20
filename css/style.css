@@ -4,6 +4,11 @@ body{
     font-family: 'Ubuntu', sans-serif;
 }
 
+.scales{
+    height: 550px;
+    width: 350px;
+}
+
 .bg-ipiranga{
     background-color: #37318a !important;
     color: white;
@@ -79,17 +84,13 @@ body{
     width: 50%;
     background-color: #e51a0b;
     color: white;
-    border: 1px solid #77140d !important;   
 }
 
 .btn-modal:hover{
+    transition: 1.0s;
     color: white;
-    border: 1px solid white;
-    box-shadow: 0px 1px 6px #e51a0b;
-    background-color: #f70264;
-    transition: 0.70s;
-    background: linear-gradient(20deg,#ff0000,#77140d,#ff0043); /*Change colors as you want*/
-    background-size: 1000% 1000% !important;
+    box-shadow: 0px 1px 6px #000;
+
 }
 
 .location{
@@ -298,7 +299,7 @@ body{
     padding: 15px 15px;
     color: #0f7dfc;
     transition: .5s;
-    border-radius: 5%;    
+    border-radius: 5%;
 }
 
 .fb:hover{
@@ -307,6 +308,7 @@ body{
     box-shadow: 0px 1px 6px #0f7dfc;
     background-color: #0f7dfc;
     transition: 0.70s;
+    text-shadow: 0px 1px 4px #fcfcfc;
 }
 
 .ig:hover{
@@ -317,6 +319,7 @@ body{
     transition: 0.70s;
     background: linear-gradient(20deg,#e51a0b,#eff702,#f702f3); /*Change colors as you want*/
     background-size: 1000% 1000% !important;
+    text-shadow: 0px 1px 4px #fcfcfc;
 }
 
 .wp:hover{
@@ -327,6 +330,7 @@ body{
     transition: 0.70s;
     background: linear-gradient(20deg,#15f709,#04f731,#04f78e); /*Change colors as you want*/
     background-size: 1000% 1000% !important;
+    text-shadow: 0px 1px 4px #fcfcfc;
 }
 
 .cfb{
